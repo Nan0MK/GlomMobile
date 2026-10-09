@@ -1,0 +1,4 @@
+# Copy this file to signing.local.ps1 and set the real keystore passwords.
+# signing.local.ps1 is gitignored. Updates must keep using the same keystore.
+$storePass = "change-me"
+$keyPass = "change-me"

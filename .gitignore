@@ -1,0 +1,35 @@
+# Signing secrets. APK updates must keep this same keystore.
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+android/signing.local.ps1
+
+# Other local secrets
+.env
+.env.*
+credentials.json
+secrets.json
+
+# Local prebuild. Its debug strings include this machine's user path.
+raylib/android/arm64/libraylib.a
+
+# Build outputs
+build/
+*.exe
+*.apk
+*.aab
+*.idsig
+*.o
+*.so
+*.obj
+*.pdb
+
+# Editor and OS
+.vs/
+.idea/
+*.user
+Thumbs.db
+Desktop.ini
